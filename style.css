@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #bfc1fd;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 100px;
+  min-height: calc(100vh - 100px);
+}
+
+.header {
+  width: 100%;
+  height: 100px;
+  background-color: #d6daff;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  padding: 0 25px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.logo__pic {
+  width: 100px;
+}
+
+.header__item {
+  list-style-type: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.header__item:hover {
+  background-color: #bfc1fd;
+}
+
+.header__item_active {
+  background-color: #bfc1fd;
+}
+
+.header__links {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  align-self: center;
+  gap: 30px;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.figur {
+  display: flex;
+  height: calc(100vh - 100px);
+}
+
+.figur__list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 15px;
+  margin-top: 100px;
+}
+
+.figur__item {
+  width: 20%;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.figur__pic {
+  width: 100%;
+}
+
+.figur__link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: block;
+  padding: 10px 8px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-top: 15px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.figur__link:hover {
+  background-color: #d6daff;
+}
+
+.border{
+  border-top: 1px solid black;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.info {
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 200px);
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.info__heading {
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.info__info {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.info__text {
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: normal;
+  width: 100%;
+}
+
+.info__wrap {
+  width: 30%;
+}
+
+.info__wrap_other {
+  width: 100%;
+  display: flex;
+}
+
+.info__pic {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.grid > .info__pic {
+  width: 50%;
+}
+
+.anchor {
+  position: absolute;
+  top: -150px;
+  visibility: hidden;
+}
+
+#trusovaPic{
+  width: 60%;
+}
+
+
+/* figure.style.backgroundColor = "#d6daff";
+figure.style.borderRadius = "2rem";
+figure.style.marginTop = "2rem";
+elements.style.backgroundColor = "#d6daff";
+elements.style.borderRadius = "2rem";
+elements.style.marginTop = "2rem";
+
+container1.style.display = "flex";
+container1.style.flexDirection = "row";
+
+container3.style.display = "flex";
+container3.style.flexDirection = "column"; */
