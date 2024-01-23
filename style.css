@@ -120,7 +120,7 @@ body {
   width: 100%;
 }
 
-.info {
+.info, .dream {
   padding: 0 100px;
   display: flex;
   flex-direction: column;
@@ -190,7 +190,7 @@ body {
 }
 
 .elements__header {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 900;
 }
 
@@ -203,13 +203,13 @@ body {
 }
 
 .element__name {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   width: 100%;
 }
 
 .element__text {
-  font-size: 20px;
+  font-size: 30px;
   flex-grow: 2;
   max-width: 30%;
 }
@@ -223,17 +223,6 @@ body {
   border-radius: 50px;
 }
 
-
-
-/* figure.style.backgroundColor = "#d6daff";
-figure.style.borderRadius = "2rem";
-figure.style.marginTop = "2rem";
-elements.style.backgroundColor = "#d6daff";
-elements.style.borderRadius = "2rem";
-elements.style.marginTop = "2rem";
-
-container1.style.display = "flex";
-container1.style.flexDirection = "row";
-
-container3.style.display = "flex";
-container3.style.flexDirection = "column"; */
+.dream__start {
+  display: flex;
+}
